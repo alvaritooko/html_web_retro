@@ -2,6 +2,10 @@
 
 A nostalgic Single Page Application (SPA) built with React + Vite, styled to look like a website from the golden age of the internet (1990s). This project combines modern web development technology with authentic retro aesthetics.
 
+## 🌐 **Live Demo**
+
+**[🚀 Ver el sitio web en vivo](https://alvaritooko.github.io/html_web_retro/)**
+
 ## 🚀 Features
 
 - **Authentic 90s Design**: Classic Windows 95/98 inspired interface
@@ -11,6 +15,7 @@ A nostalgic Single Page Application (SPA) built with React + Vite, styled to loo
 - **Retro Color Scheme**: Authentic 80s/90s color palette
 - **Modern Tech Stack**: Built with React 18 and Vite
 - **SPA Navigation**: Smooth single-page application experience
+- **Spanish Interface**: Complete Spanish translation
 
 ## 🛠️ Technology Stack
 
@@ -19,6 +24,7 @@ A nostalgic Single Page Application (SPA) built with React + Vite, styled to loo
 - **Styling**: CSS3 with retro themes
 - **Fonts**: Google Fonts (VT323, Press Start 2P, Orbitron)
 - **Development**: ESLint, React Refresh
+- **Deployment**: GitHub Pages + GitHub Actions
 
 ## 📁 Project Structure
 
@@ -49,6 +55,8 @@ retro-html-site/
 │   ├── App.jsx
 │   └── main.jsx
 │
+├── .github/workflows/
+│   └── deploy.yml
 ├── index.html
 ├── vite.config.js
 ├── package.json
@@ -59,11 +67,11 @@ retro-html-site/
 
 The interactive terminal supports the following commands:
 
-- `help` - Show available commands
-- `about` - Display information about the terminal
-- `clear` - Clear terminal output
-- `date` - Show current date and time
-- `fortune` - Display a random fortune
+- `ayuda` - Show available commands
+- `acerca` - Display information about the terminal
+- `limpiar` - Clear terminal output
+- `fecha` - Show current date and time
+- `fortuna` - Display a random fortune
 - `matrix` - Show Matrix-style digital rain effect
 
 ## 🎨 Design Features
@@ -97,8 +105,8 @@ The interactive terminal supports the following commands:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd retro-html-site
+   git clone https://github.com/alvaritooko/html_web_retro.git
+   cd html_web_retro
    ```
 
 2. **Install dependencies**
@@ -125,6 +133,18 @@ npm run build
 ```bash
 npm run preview
 ```
+
+## 🌐 Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+
+### Manual Deployment
+
+If you want to deploy manually:
+
+1. Build the project: `npm run build`
+2. The `dist/` folder contains the production files
+3. Upload the contents to your web server
 
 ## 📱 Browser Compatibility
 
@@ -191,8 +211,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 
 - **Email**: webmaster@retrosite.com
-- **Website**: [Your Retro Site URL]
-- **GitHub**: [Your GitHub Profile]
+- **Website**: [https://alvaritooko.github.io/html_web_retro/](https://alvaritooko.github.io/html_web_retro/)
+- **GitHub**: [alvaritooko](https://github.com/alvaritooko)
 
 ---
 

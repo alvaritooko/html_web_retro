@@ -1,0 +1,73 @@
+/* Retro Fonts and Typography */
+
+/* Import Google Fonts for retro feel */
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&family=Orbitron:wght@400;700;900&display=swap');
+
+/* Font fallbacks and definitions */
+:root {
+  --font-primary: 'Courier New', 'Monaco', 'Menlo', 'Consolas', monospace;
+  --font-display: 'VT323', 'Courier New', monospace;
+  --font-gaming: 'Press Start 2P', 'Courier New', monospace;
+  --font-futuristic: 'Orbitron', 'Courier New', monospace;
+}
+
+/* Digital/Calculator font for counters */
+@font-face {
+  font-family: 'Digital-7';
+  src: url('data:font/woff2;base64,d09GMgABAAAAAA...') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply fonts to specific elements */
+.site-logo,
+.main-title,
+.about-title {
+  font-family: var(--font-display);
+}
+
+.terminal-container,
+.terminal-input,
+.terminal-output {
+  font-family: var(--font-primary);
+}
+
+.counter-number {
+  font-family: var(--font-gaming);
+}
+
+.browser-badge,
+.construction-text {
+  font-family: var(--font-futuristic);
+}
+
+/* Font size adjustments for better readability */
+@media (max-width: 768px) {
+  .site-logo {
+    font-size: 2em;
+  }
+  
+  .main-title,
+  .about-title {
+    font-size: 1.8em;
+  }
+  
+  .counter-number {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-logo {
+    font-size: 1.5em;
+  }
+  
+  .main-title,
+  .about-title {
+    font-size: 1.3em;
+  }
+  
+  .counter-number {
+    font-size: 1.2em;
+  }
+} 

@@ -6,6 +6,8 @@ A nostalgic Single Page Application (SPA) built with React + Vite, styled to loo
 
 **[🚀 Ver el sitio web en vivo](https://alvaritooko.github.io/html_web_retro/)**
 
+*Nota: El sitio puede tardar unos minutos en estar disponible después del despliegue.*
+
 ## 🚀 Features
 
 - **Authentic 90s Design**: Classic Windows 95/98 inspired interface
